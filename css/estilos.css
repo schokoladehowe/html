@@ -1,0 +1,53 @@
+/*cyberpunk mod of ferus by kalyx
+
+B332E6 = dark purp
+33cccc = teal 
+00ff00 = green
+FF46D2 = pink
+dark blue = 00080C
+*/
+
+body {
+	background: #0C0001;
+	color: #FF46D2;
+	font-family: monospace;
+	font-size: 11px;
+	/*text-shadow: 0px 0px 3px #FF46D2;*/
+}
+@font-face 
+{
+  font-family: 'lain';
+  src: url('./fonts/nrdyyh.woff') format('woff'),
+       url('./fonts/tojcxo.TTF') format('truetype');
+}
+h1 {
+	 font-family: monospace, Arial;
+	font-size: 18pt;
+	text-align: center;
+	letter-spacing: 0px;
+}
+div.title, h1 {
+	color: #FF46D2;
+	font-family: lain, Helvetica, sans-serif;
+}
+header div.subtitle {
+color: #00ff00;
+text-align: center;
+	text-shadow: 0px 0px 3px #00ff00;
+}
+div.title p {
+	font-size: 13px;
+}
+a:link, a:visited, p.intro a.email span.name {
+	color: #00ff00;
+text-shadow: 0px 0px 10px #00ff00;
+	font-family: monospace;
+}
+pre.prettyprint {
+background: #00080C;
+
+font-size: 12px;
+line-height: 1.5;
+border: 1px solid #33cccc;
+padding: 10px;
+}
